@@ -52,4 +52,7 @@
 ---
 
 ### 9. 슬라이드 효과
+![image](https://github.com/jeong202/js/assets/144635664/b106bc68-6199-433f-a2d7-b19e152fe107)
+
+
 
