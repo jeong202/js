@@ -1,91 +1,88 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>마우스 효과</title>
 
-    <link
-      rel="stylesheet"
-      href="https://webfontworld.github.io/gmarket/GmarketSans.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://websfont.github.io/nanumSquareNeo/nanumSquareNeo.css"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="..//assets/css/default.min.css" />
-  </head>
-  <body>
-    <div id="wrap">
-      <header id="header">
-        <h1><a href="index.html">javascript</a></h1>
-        <nav>
-          <ul>
-            <li><a href="javascript01.html">데이터 저장하기</a></li>
-            <li><a href="javascript02.html">데이터 불러오기</a></li>
-            <li>
-              <a href="javascript03.html">데이터 실행하기</a>
-            </li>
-            <li>
-              <a href="javascript04.html">데이터 제어하기</a>
-            </li>
-          </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>마우스 효과</title>
 
-          <ul>
-            <li><a href="javascript11.html">데이터 효과</a></li>
-            <li class="active"><a href="javascript13.html">마우스 효과</a></li>
-            <li><a href="javascript12.html">퀴즈 효과</a></li>
-            <li><a href="javascript07.html">서치 효과</a></li>
-            <li><a href="javascript14.html">슬라이드 효과</a></li>
-          </ul>
-        </nav>
-      </header>
-      <!-- //header -->
+  <link rel="stylesheet" href="https://webfontworld.github.io/gmarket/GmarketSans.css" />
+  <link rel="stylesheet" href="https://websfont.github.io/nanumSquareNeo/nanumSquareNeo.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="../assets/css/default.min.css" />
+</head>
 
-      <main id="main">
-        <div class="main__desc">
-          <div class="desc01">
-            <h2>01. 마우스 이펙트 : 마우스 따라다니기</h2>
-            <p>
-              마우스 움직임에 반응하여 따라다니는 커서가 있습니다. 커서는
-              움직임에 따라 위치가 조절되며, 텍스트에 마우스를 올리면 커서의
-              스타일이 변화하는 효과가 있습니다. 또한, 마우스의 위치에 대한 좌표
-              정보를 화면 하단에 표시하는 부분도 있습니다.
-            </p>
-            <a href="mouse/mouse01.html" target="_blank">확인하기</a>
-          </div>
-          <div class="desc02">
-            <h2>02. 마우스 이펙트 : 마우스 따라다니기(GSAP)</h2>
-            <p>
-              GSAP(GreenSock Animation Platform) 라이브러리를 사용하여 마우스
-              이펙트를 생성했습니다.<br />마우스 움직임에 따라 두 가지 다른
-              커서가 부드럽게 변하고, 특정 텍스트에 호버하면 효과가 활성화되는
-              마우스 이펙트를 구현했습니다.
-            </p>
-            <a href="mouse/mouse02.html" target="_blank">확인하기</a>
-          </div>
-          <div class="desc03">
-            <h2>03. 마우스 이펙트 : 돋보기 효과</h2>
-            <p>
-              마우스 이동에 반응하여 움직이는 마우스 커서를 통해 돋보기 효과가
-              표현됩니다. 마우스의 위치에 따라 GSAP 라이브러리를 활용하여
-              부드럽게 이동합니다. 이때, 커서의 배경으로 설정된 이미지는
-              돋보기를 사용하는 듯한 시각적인 효과를 제공하며, 마우스 이동에
-              따라 이미지가 함께 이동함으로써 돋보기 효과가 자연스럽게
-              구현됩니다.
-            </p>
-            <a href="mouse/mouse03.html" target="_blank">확인하기</a>
-          </div>
+<body>
+  <div id="wrap">
+    <header id="header">
+      <h1><a href="../index.html">javascript</a></h1>
+      <nav>
+        <ul>
+          <li><a href="javascript01.html">데이터 저장하기</a></li>
+          <li><a href="javascript02.html">데이터 불러오기</a></li>
+          <li>
+            <a href="javascript03.html">데이터 실행하기</a>
+          </li>
+          <li>
+            <a href="javascript04.html">데이터 제어하기</a>
+          </li>
+        </ul>
+
+        <ul>
+          <li><a href="javascript11.html">데이터 효과</a></li>
+          <li class="active"><a href="javascript13.html">마우스 효과</a></li>
+          <li><a href="javascript12.html">퀴즈 효과</a></li>
+          <li><a href="javascript07.html">서치 효과</a></li>
+          <li><a href="javascript14.html">슬라이드 효과</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- //header -->
+
+    <main id="main">
+      <div class="main__desc">
+        <div class="desc01">
+          <h2>01. 마우스 이펙트 : 마우스 따라다니기</h2>
+          <p>
+            마우스 움직임에 반응하여 따라다니는 커서가 있습니다. 커서는
+            움직임에 따라 위치가 조절되며, 텍스트에 마우스를 올리면 커서의
+            스타일이 변화하는 효과가 있습니다. 또한, 마우스의 위치에 대한 좌표
+            정보를 화면 하단에 표시하는 부분도 있습니다.
+          </p>
+          <a href="mouse/mouse01.html" target="_blank">확인하기</a>
         </div>
-        <!-- //main__desc -->
-      </main>
-      <!-- //main -->
+        <div class="desc02">
+          <h2>02. 마우스 이펙트 : 마우스 따라다니기(GSAP)</h2>
+          <p>
+            GSAP(GreenSock Animation Platform) 라이브러리를 사용하여 마우스
+            이펙트를 생성했습니다.<br />마우스 움직임에 따라 두 가지 다른
+            커서가 부드럽게 변하고, 특정 텍스트에 호버하면 효과가 활성화되는
+            마우스 이펙트를 구현했습니다.
+          </p>
+          <a href="mouse/mouse02.html" target="_blank">확인하기</a>
+        </div>
+        <div class="desc03">
+          <h2>03. 마우스 이펙트 : 돋보기 효과</h2>
+          <p>
+            마우스 이동에 반응하여 움직이는 마우스 커서를 통해 돋보기 효과가
+            표현됩니다. 마우스의 위치에 따라 GSAP 라이브러리를 활용하여
+            부드럽게 이동합니다. 이때, 커서의 배경으로 설정된 이미지는
+            돋보기를 사용하는 듯한 시각적인 효과를 제공하며, 마우스 이동에
+            따라 이미지가 함께 이동함으로써 돋보기 효과가 자연스럽게
+            구현됩니다.
+          </p>
+          <a href="mouse/mouse03.html" target="_blank">확인하기</a>
+        </div>
+      </div>
+      <!-- //main__desc -->
+    </main>
+    <!-- //main -->
 
-      <footer id="footer">
-        <a href="mailito:jhyjhy968@gmail.com">jhyjhy968@gmail.com</a>
-      </footer>
-      <!-- //footer -->
-    </div>
-  </body>
+    <footer id="footer">
+      <a href="mailito:jhyjhy968@gmail.com">jhyjhy968@gmail.com</a>
+    </footer>
+    <!-- //footer -->
+  </div>
+</body>
+
 </html>
